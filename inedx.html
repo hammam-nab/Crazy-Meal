@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Meal</title>
+</head>
+<body>
+     <header>
+        <div class="header-container">
+            <h1>Crazy Meal</h1> 
+            <nav>
+            <a href="inedx.html" class="button">Home</a>
+            <a href="menu.html" class="button">Menu</a>
+            </nav>
+        </div>
+     </header>
+    <main>
+        <div class="form-container">
+            <img src="images/home-picture.png" >
+
+                <form id="add-orader">
+                    <h2>Add a new order:</h2>
+                    <label for="maelname">Meal Name:</label>
+                    <input type="text" name="maelname" id="maelname"  required>
+                    <br>
+                    <label for="mealprice">Meal Price:</label>
+                    <input type="number" name="mealprice" id="mealprice" required>
+                    <br>
+                    <label for="mealimage">Meal Image:</label>
+                    <input type="url" name="mealimage" id="mealimage">
+                    <br>
+                    <button type="submit" class="button">Add Order</button>
+                    <button type="button" id="clear-orders" class="button">Clear All Oreder</button>
+
+                </form>
+
+        </div>      
+            <center><h2>Order List:</h2></center>
+            <table id="order-table">
+                <thead>
+                    <tr>
+                        <th>Meal Name</th>
+                        <th>Meal Price</th>
+                        <th>Meal Image</th>
+                    </tr>
+                </thead >
+                <tbody id="ordertable">
+                    <!-- here order -->
+                </tbody>
+            </table>
+    </main>
+
+
+    <footer>
+        
+            <p>&copy; <span id="current-year"></span> Crazy Meal. Developed by Hammam Alnababteh</p>
+    
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
