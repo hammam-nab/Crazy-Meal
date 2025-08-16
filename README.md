@@ -36,3 +36,8 @@ crazy-meal/
 - Implement order quantity and total calculation
 - Add a checkout process
 - Enhance the menu with more details and filtering options
+
+## How many hours did it take you to complete this assignment?**  
+About 30 hours.
+## Were there any parts of the lab you found challenging?**  
+Yes, I had some trouble with the DOM.
