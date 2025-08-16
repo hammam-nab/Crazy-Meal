@@ -1,6 +1,7 @@
 # Crazy-Meal
 This project is a web application for a chicken restaurant called "Crazy Meal" that allows users to add and track customer orders by entering meal details.
 
+## Go live 🛜 : https://hammam-nab.github.io/Crazy-Meal/
 
 ## Features
 - Add new orders with meal name, price, and image URL
